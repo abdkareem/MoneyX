@@ -75,10 +75,15 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="nRI-Lj-YLv"/>
+                    <navigationItem key="navigationItem" id="nRI-Lj-YLv">
+                        <barButtonItem key="rightBarButtonItem" title="GO" id="O2v-WX-kKh">
+                            <connections>
+                                <action selector="putValuesOnTable:" destination="BYZ-38-t0r" id="D1d-6v-2oF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="currencyList" destination="IIA-df-MY2" id="ROy-PU-78g"/>
-                        <segue destination="Bqb-6j-Nwf" kind="show" identifier="showResults" id="HwT-xf-ujr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

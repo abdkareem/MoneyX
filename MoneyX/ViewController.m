@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ResultsViewController.h"
 @interface ViewController () {
     id variable;
     NSDictionary *currenciesList;
@@ -73,7 +73,8 @@
     tempArray = [currenciesList allValues];
     [self makeApiCall: tempArray[row]];
     NSLog(@"\nReturns back from makeApiCall method");
-    [self presentViewController:resultsVC animated:YES completion:nil];
+    //[self presentViewController:resultsVC animated:YES completion:nil];
+    
 }
 
 /*
@@ -81,6 +82,10 @@
     return
 }
 */
+- (IBAction)putValuesOnTable:(id)sender {
+    ResultsViewController *pResultsViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"resultsVC"];
+    [self presentViewController:pResultsViewController animated:YES completion:nil];
+}
 
 - (void) makeApiCall: (NSString *)currencyCode {
     //NSMutableString *baseApiLatestJsonAppid = [NSMutableString stringWithString:@"https://openexchangerates.org/api/latest.json?app_id=8199fafc033e4ca3945b9d105466d90a&base="];

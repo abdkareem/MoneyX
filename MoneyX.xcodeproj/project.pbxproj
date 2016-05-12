@@ -16,6 +16,7 @@
 		51FA29AE1CE2CF9100463567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FA29AC1CE2CF9100463567 /* LaunchScreen.storyboard */; };
 		51FA29B91CE2CF9100463567 /* MoneyXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA29B81CE2CF9100463567 /* MoneyXTests.m */; };
 		51FA29C41CE2CF9100463567 /* MoneyXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA29C31CE2CF9100463567 /* MoneyXUITests.m */; };
+		51FA29D31CE3F71100463567 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA29D21CE3F71100463567 /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		51FA29BF1CE2CF9100463567 /* MoneyXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51FA29C31CE2CF9100463567 /* MoneyXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyXUITests.m; sourceTree = "<group>"; };
 		51FA29C51CE2CF9100463567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51FA29D11CE3F71100463567 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		51FA29D21CE3F71100463567 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				51FA29A11CE2CF9100463567 /* ViewController.h */,
 				51FA29A21CE2CF9100463567 /* ViewController.m */,
 				51FA29A41CE2CF9100463567 /* Main.storyboard */,
+				51FA29D11CE3F71100463567 /* ResultsViewController.h */,
+				51FA29D21CE3F71100463567 /* ResultsViewController.m */,
 				51FA29AA1CE2CF9100463567 /* Assets.xcassets */,
 				51FA29AC1CE2CF9100463567 /* LaunchScreen.storyboard */,
 				51FA29AF1CE2CF9100463567 /* Info.plist */,
@@ -277,6 +282,7 @@
 				51FA29A01CE2CF9100463567 /* AppDelegate.m in Sources */,
 				51FA299D1CE2CF9100463567 /* main.m in Sources */,
 				51FA29A91CE2CF9100463567 /* MoneyX.xcdatamodeld in Sources */,
+				51FA29D31CE3F71100463567 /* ResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -52,12 +53,12 @@
                                 <exclude reference="51v-ET-4E5"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="EL0-d9-UHA"/>
-                                <exclude reference="nTy-9d-fwx"/>
-                                <exclude reference="qrI-oA-TGe"/>
                                 <exclude reference="2dl-Ut-OqQ"/>
                                 <exclude reference="ZCF-nY-ZR9"/>
                                 <exclude reference="dXI-hx-44D"/>
+                                <exclude reference="EL0-d9-UHA"/>
+                                <exclude reference="nTy-9d-fwx"/>
+                                <exclude reference="qrI-oA-TGe"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -66,19 +67,19 @@
                                 <include reference="51v-ET-4E5"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="EL0-d9-UHA"/>
-                                <include reference="nTy-9d-fwx"/>
-                                <include reference="qrI-oA-TGe"/>
                                 <include reference="2dl-Ut-OqQ"/>
                                 <include reference="ZCF-nY-ZR9"/>
                                 <include reference="dXI-hx-44D"/>
+                                <include reference="EL0-d9-UHA"/>
+                                <include reference="nTy-9d-fwx"/>
+                                <include reference="qrI-oA-TGe"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="nRI-Lj-YLv">
-                        <barButtonItem key="rightBarButtonItem" title="GO" id="O2v-WX-kKh">
+                        <barButtonItem key="leftBarButtonItem" title="Choose" id="YKe-7z-ycZ">
                             <connections>
-                                <action selector="putValuesOnTable:" destination="BYZ-38-t0r" id="D1d-6v-2oF"/>
+                                <action selector="selectCurrency:" destination="BYZ-38-t0r" id="3Sh-yu-WGJ"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -99,6 +100,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Id0-g5-mLW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="h5g-Xh-1lE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

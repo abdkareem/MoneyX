@@ -1,2 +1,16 @@
 # MoneyX
-Currency conversion platform that can be used to view foreign exchange for base i.e. user's currency. Uses REST API's provided by Fixer.io. 
+Forex platform. 
+User can select his native currency by srolling the scroll component. Upon selection, the app makes calls to third party app using their REST API's.
+The API's used in this project are provided by #fixer.io
+
+#To run the app
+Clone the repo using
+$ git clone https://github.com/abdkareem/MoneyX.git
+
+open the project and run MoneyX.xcodeproj file 
+
+Press ctrl + r to run the project
+
+
+#Note
+The app is under development. More features are yet to be implemented.

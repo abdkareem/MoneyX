@@ -13,4 +13,5 @@ Press ctrl + r to run the project
 
 
 #Note
-The app is under development. More features are yet to be implemented.
+To view exchange rates view log area on xcode. UI diplaying the currency values to be updated.
+More features are yet to be implemented.
